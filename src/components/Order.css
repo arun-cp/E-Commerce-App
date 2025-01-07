@@ -1,0 +1,42 @@
+.orderbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.orderbox {
+    background: rgba(209, 184, 154, 0.863);
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: left;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.orderbox input, textarea {
+    max-width: 120px;
+    border-radius: 5px;
+    background-color: rgb(232, 223, 213);
+    margin: 4px;
+
+}
+
+.orderbox label {
+    margin: 4px;
+
+}
+
+.odtail {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}

@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.listitem {
+    background-color: rgba(137, 167, 193, 0.874);
+    padding: 10px;
+    position: relative;
+    box-shadow: inset;
+    text-align: center;
+    margin: 10px; 
+    max-width: 20%;    
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.listitem img {
+    width: 100%; 
+    height: auto;
+}
+
+.listitem button {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+

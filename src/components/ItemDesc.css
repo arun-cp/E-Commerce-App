@@ -1,0 +1,29 @@
+.itembg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.itembox {
+    background: rgba(209, 184, 154, 0.863);
+    padding: 10px;
+    text-align: left;
+    max-width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.itembox img {
+    margin-right: 8px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0px;
+  }
