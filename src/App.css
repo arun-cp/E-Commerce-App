@@ -1,3 +1,7 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 1px;
 }
@@ -7,14 +11,38 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  background-color: #354b75f6;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
 
+.title {
+  display: flex;
+  align-items: center;
 }
 
 button {
   box-shadow: #282c34;
-  background-color: rgba(229, 215, 215, 0.708);
+  background-color: rgb(199, 208, 200);;
+  border-radius: 3px;
   color: rgb(32, 33, 34);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.head button {
+  box-shadow: #282c34;
+  background-color: rgb(61, 219, 80);
+  border-radius: 5px;
+  color: rgb(18, 18, 18);
+  font-size: medium;
   justify-content: center;
   align-items: center;
   font-weight: bold;

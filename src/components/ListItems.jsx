@@ -2,6 +2,7 @@ import { useEffect , useState } from "react";
 import imagedummy from "./orsrc71709.png"
 import './ListItems.css';
 import star from "./star.png";
+import addcart from "./add-cart.png";
 
 export default function ListItems({products, setProducts, cartitem, updatecartitem, itemclicked}) {
   
@@ -71,16 +72,23 @@ export default function ListItems({products, setProducts, cartitem, updatecartit
             return(
               <div className="listitem" >
                 <img src={item.image} alt="img" onClick={() => itemclicked(item) }></img>
-                <h1 onClick={() => itemclicked(item) }>{item.title} </h1>
-                <span >
+                <h2 onClick={() => itemclicked(item) }>{item.title} </h2>
+                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <img 
                       src={star} 
                       alt="star Icon" 
                       style={{ width: '20px', height: 'auto' }} 
                   /> {item.rating}
                 </span>
-                <h3 style={{ color : "brown" }}>$ {item.price}</h3>
-                <button onClick={() => addCart(item.title, item.price, item.image)}>Add to Cart</button>
+                <h3 >$ {item.price}</h3><br/>
+                <button onClick={() => addCart(item.title, item.price, item.image)}>
+                  <span style={{ display: 'flex', alignItems: 'center' }}>
+                    <img 
+                        src={addcart} 
+                        alt="Cart Icon" 
+                        style={{ width: '16px', height: 'auto' }} />Add to Cart
+                  </span>
+                </button>
               </div>
                 )}) 
         }

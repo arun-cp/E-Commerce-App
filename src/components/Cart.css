@@ -12,7 +12,7 @@
 }
 
 .cartbox {
-    background: rgba(209, 184, 154, 0.863);
+    background: rgb(154 155 156 / 97%);
     padding: 10px;
     text-align: center;
     width: 35%;
@@ -22,7 +22,7 @@
 }
 
 .cartitem {
-    background-color: antiquewhite;
+    background-color: rgb(232, 223, 213);
     border-radius: 4px;
     margin: 5px;
     padding: 7px;

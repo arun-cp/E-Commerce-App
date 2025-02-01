@@ -1,8 +1,8 @@
 html {
-  background-image: url('./components/bg.jpg');
-  background-size: contain;
+  background-image: linear-gradient(to bottom, #dbe0e7, #b8c8ce, #99b0ae, #83978b, #777d67);
   background-attachment: fixed;
   width: 100%;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {

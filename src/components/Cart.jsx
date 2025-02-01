@@ -21,7 +21,8 @@ export default function Cart({cartitem, updatecartitem, close, order}) {
     return(
         <div className="cartbg">
             <div className="cartbox">
-                <h2>CART</h2>
+                <h2 >CART</h2>
+                <hr/>
                 {cartitem.length === 0 ? <p>Cart is Empty</p> : null}
                 {
                     cartitem.map((item) => (
@@ -40,6 +41,7 @@ export default function Cart({cartitem, updatecartitem, close, order}) {
                         </div>
                     ))
                 }
+                <br></br>
                 <div className="carttail">
                     <h3>Grand Total : $ {total}</h3>
                     <div>
