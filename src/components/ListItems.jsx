@@ -3,17 +3,19 @@ import imagedummy from "./orsrc71709.png"
 import './ListItems.css';
 import star from "./star.png";
 import addcart from "./add-cart.png";
+import load from "./loading.gif";
+let response = null;
 
 export default function ListItems({products, setProducts, cartitem, updatecartitem, itemclicked}) {
-  
     useEffect(() => {
       async function fetchTasks() {
         try {
-          const response = await fetch("https://dummyjson.com/products");
+          response = await fetch("https://dummyjson.com/products");
           if (!response.ok) {
             throw new Error("Network response was not ok");
           }
           const result = await response.json();
+          const timer = setTimeout(() => {
           const tasks = result.products.map((item) => ({
             title: item.title,
             desc: item.description,
@@ -27,6 +29,7 @@ export default function ListItems({products, setProducts, cartitem, updatecartit
           }));
           setProducts(tasks); 
           console.log(products)
+          }, 3000);
         } catch (err) {
           console.error("Error fetching data:", err);
         }
@@ -67,6 +70,7 @@ export default function ListItems({products, setProducts, cartitem, updatecartit
   
     return (
       <div className="list">
+        {response === null && <img src={load} alt="img" style={{ width: '15%', height: 'auto' }}></img>}
         {
           products.map( (item) => {
             return(
