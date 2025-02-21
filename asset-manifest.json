@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/E-Commerce-App/static/css/main.21ce46c6.css",
-    "main.js": "/E-Commerce-App/static/js/main.5309b371.js",
+    "main.css": "/E-Commerce-App/static/css/main.88c3a066.css",
+    "main.js": "/E-Commerce-App/static/js/main.21b2a032.js",
+    "static/media/loading.gif": "/E-Commerce-App/static/media/loading.9a9ccf4cd3de8d44862f.gif",
+    "static/media/loginimage.jpg": "/E-Commerce-App/static/media/loginimage.9747b20ed2f7b8a2ca21.jpg",
     "static/media/shopping-cart.gif": "/E-Commerce-App/static/media/shopping-cart.bd2f6fdaa1f08cf3744f.gif",
     "static/media/orsrc71709.png": "/E-Commerce-App/static/media/orsrc71709.ba1d99e141a80667b843.png",
     "static/media/head.gif": "/E-Commerce-App/static/media/head.81587ab67c7974aef5f1.gif",
@@ -11,11 +13,11 @@
     "static/media/delivery.png": "/E-Commerce-App/static/media/delivery.b4aaa8c3cd7a1c422468.png",
     "static/media/waranty.png": "/E-Commerce-App/static/media/waranty.38ef2a9e4f7e90100f93.png",
     "index.html": "/E-Commerce-App/index.html",
-    "main.21ce46c6.css.map": "/E-Commerce-App/static/css/main.21ce46c6.css.map",
-    "main.5309b371.js.map": "/E-Commerce-App/static/js/main.5309b371.js.map"
+    "main.88c3a066.css.map": "/E-Commerce-App/static/css/main.88c3a066.css.map",
+    "main.21b2a032.js.map": "/E-Commerce-App/static/js/main.21b2a032.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ce46c6.css",
-    "static/js/main.5309b371.js"
+    "static/css/main.88c3a066.css",
+    "static/js/main.21b2a032.js"
   ]
 }
